@@ -86,6 +86,13 @@ var addTask = function(task){
   var task = this;
   advanceTask(task);
 });
+$(".tweet").click(function(){
+        $(".stats").toggle("show");
+        $(".favorites").toggle("show");
+        $(".users-interact").toggle("show");
+        $(".reply").toggle("show");
+
+   });
 
 
 
